@@ -1,4 +1,11 @@
 $ git log
+
+commit a76b6dce1646ec16d017ea2a06652b29ef989564 (HEAD -> master, origin/master, origin/HEAD)
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 18 09:53:11 2020 +0300
+
+    add log.txt
+
 commit c1a3c276bf7dfe38839f8dc35bf63409a8d9a15e (HEAD -> master, origin/master, origin/HEAD)
 Author: AlehBerasneu <alehberasneu@gmail.com>
 Date:   Tue Feb 11 13:32:09 2020 +0300
