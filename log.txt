@@ -1,0 +1,53 @@
+$ git log
+commit c1a3c276bf7dfe38839f8dc35bf63409a8d9a15e (HEAD -> master, origin/master, origin/HEAD)
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 13:32:09 2020 +0300
+
+    clone + a.txt change
+
+commit db9ee916146b92c823c59e4122b1e3b0aec5d974
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:48:30 2020 +0300
+
+    b.txt add
+
+commit cc019d8e9b5c02fa9180fbb3deb5a859adab84e7
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:46:26 2020 +0300
+
+    a.txt change
+
+commit b62020e9f9de2f5ee305639e8d494cb9e79dc930
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:39:29 2020 +0300
+
+:...skipping...
+commit c1a3c276bf7dfe38839f8dc35bf63409a8d9a15e (HEAD -> master, origin/master, origin/HEAD)
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 13:32:09 2020 +0300
+
+    clone + a.txt change
+
+commit db9ee916146b92c823c59e4122b1e3b0aec5d974
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:48:30 2020 +0300
+
+    b.txt add
+
+commit cc019d8e9b5c02fa9180fbb3deb5a859adab84e7
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:46:26 2020 +0300
+
+    a.txt change
+
+commit b62020e9f9de2f5ee305639e8d494cb9e79dc930
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:39:29 2020 +0300
+
+    MSecondCommit
+
+commit 500d2a5d080948338e5b0748a5e1013fd912c78d
+Author: AlehBerasneu <alehberasneu@gmail.com>
+Date:   Tue Feb 11 10:36:28 2020 +0300
+
+    MFCommit
