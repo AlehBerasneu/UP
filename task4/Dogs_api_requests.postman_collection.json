@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "28143062-3cb2-4de7-9850-1e0a5f1df7b8",
+		"name": "Dogs_api_requests",
+		"description": "3 запроса с api https://dog.ceo/dog-api/",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://dog.ceo/api/breeds/image/random/10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/image/random/10",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"image",
+						"random",
+						"10"
+					]
+				},
+				"description": "Request2: 10 случайных картинок разных пород собак"
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breed/pug/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breed/pug/list",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breed",
+						"pug",
+						"list"
+					]
+				},
+				"description": "Запрос2: мы запрашиваем список подпород породы Pug"
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breed/pug/images",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breed/pug/images",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breed",
+						"pug",
+						"images"
+					]
+				},
+				"description": "Request3: Список всех картинок пароды pug в безе"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

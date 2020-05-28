@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "ba5e1768-37db-4bad-9a05-360e90ecaac9",
+		"name": "RecipePuppy_api_requests",
+		"description": "3 запроса с api http://www.recipepuppy.com/about/api/",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://www.recipepuppy.com/api/?i=onions,milk&q=soup&format=xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Request1: запрос списка рецептов в формате xml, рецетпы Супа, ингредиенты содержат Onions, Milk"
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.recipepuppy.com/api/?i=bread,milk&format=xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=bread,milk&format=xml",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "bread,milk"
+						},
+						{
+							"key": "format",
+							"value": "xml"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Request2: запрс списка рецептов в формате xml, ингредиенты содержат bread, milk\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.recipepuppy.com/api/?i=milk&q=cake&format=xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=milk&q=cake&format=xml",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "milk"
+						},
+						{
+							"key": "q",
+							"value": "cake"
+						},
+						{
+							"key": "format",
+							"value": "xml"
+						}
+					]
+				},
+				"description": "Request3: запрос рецепров, ингредиенты содержат milk, тип Cake, формат xml"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "ff445dc5-816e-48c0-ade8-4074ea4af58b",
+		"name": "CatsHTTP_api_requests",
+		"description": "3 запроса с https://http.cat/",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://http.cat/404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://http.cat/404",
+					"protocol": "https",
+					"host": [
+						"http",
+						"cat"
+					],
+					"path": [
+						"404"
+					]
+				},
+				"description": "Request1: Запрос картинки с котом для кода html 404"
+			},
+			"response": []
+		},
+		{
+			"name": "https://http.cat/200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://http.cat/200",
+					"protocol": "https",
+					"host": [
+						"http",
+						"cat"
+					],
+					"path": [
+						"200"
+					]
+				},
+				"description": "Request2: Запрос картинки с котом для кода html 200"
+			},
+			"response": []
+		},
+		{
+			"name": "https://http.cat/400",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://http.cat/400",
+					"protocol": "https",
+					"host": [
+						"http",
+						"cat"
+					],
+					"path": [
+						"400"
+					]
+				},
+				"description": "Request3: Запрос картинки с котом для кода html 400"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
